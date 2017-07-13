@@ -1,0 +1,63 @@
+body {
+    background: chartreuse;
+    padding: 2rem;
+    box-sizing: border-box;
+    margin: 0;
+    height: 100vh;
+}
+
+img {
+    display: block;
+    margin: 0 auto;
+
+    height: 25%;
+}
+
+div#box {
+    height: 75%;
+    background-image: url("http://htmlcolorcodes.com/assets/images/html-color-codes-color-tutorials-hero-00e10b1f.jpg");
+
+    padding: 1rem;
+    color: yellow;
+    box-sizing: border-box;
+    position: relative;
+    
+
+}
+
+input {
+    width: 70%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+
+}
+
+button {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 30%;
+    background: black;
+    color: white;
+    border: 3px solid black;
+}
+
+button:hover {
+    font-weight: bold;
+    box-shadow: 0 0 5px white;
+}
+
+button:active, button:focus{
+   background: gray;
+}
+
+
+
+div {
+    overflow-y: scroll
+}
+
+
+
+
