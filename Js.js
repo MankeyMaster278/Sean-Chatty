@@ -1,17 +1,17 @@
 var box = document.querySelector('div#box');
 
 box.insertAdjacentHTML("afterbegin", 
-`<p class='green Welcome to life chat`);
+`<p class='red' Welcome to life chat p>`);
 
 var button = document.querySelector('button');
-var inputbox =document.querySelector('input')
+var inputbox = document.querySelector('input')
 
 button.addEventListener( 'click', function() {
     console.log(inputbox.value)
 
     box.insertAdjacentHTML("beforeend", "<p>" + inputbox.value + "</p>");
 
-     box.scrollTo(0,Box.scrollHeight);
+    box.scrollTo(0,0)
 
     mascotFeedback();
 })
