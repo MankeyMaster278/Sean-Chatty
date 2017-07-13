@@ -1,5 +1,8 @@
 var box = document.querySelector('div#box');
 
+box.scrollTo(0,100);
+
+/*
 box.insertAdjacentHTML("afterbegin", 
 `<p class='red' Welcome to life chat p>`);
 
@@ -31,3 +34,4 @@ var mascot = {
     age: 26
 
 }
+*/
