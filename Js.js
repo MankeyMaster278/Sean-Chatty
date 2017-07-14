@@ -1,10 +1,8 @@
 var box = document.querySelector('div#box');
 
-box.scrollTo(0,100);
 
-/*
 box.insertAdjacentHTML("afterbegin", 
-`<p class='red' Welcome to life chat p>`);
+`<p class='red'> Welcome to life chat <p>`);
 
 var button = document.querySelector('button');
 var inputbox = document.querySelector('input')
@@ -14,7 +12,7 @@ button.addEventListener( 'click', function() {
 
     box.insertAdjacentHTML("beforeend", "<p>" + inputbox.value + "</p>");
 
-    box.scrollTo(0,0)
+    // scroll to functionality
 
     mascotFeedback();
 })
@@ -23,7 +21,7 @@ function mascotFeedback(){
     
 
     setTimeout(function() { 
-        box.insertAdjacentHTML( "beforeend", `<p> I'm ${mascot.name} </p>`);
+        box.insertAdjacentHTML( "beforeend", `<p class='orange'> I'm ${mascot.name} </p>`);
     }, 3000)
 
 }
@@ -34,4 +32,3 @@ var mascot = {
     age: 26
 
 }
-*/
