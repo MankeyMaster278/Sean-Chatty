@@ -6,11 +6,11 @@ body {
     height: 100vh;
 }
 
-img {
+ video {
     display: block;
     margin: 0 auto;
+    height: 30%;
 
-    height: 25%;
 }
 
 div#box {
@@ -21,8 +21,6 @@ div#box {
     color: yellow;
     box-sizing: border-box;
     position: relative;
-    
-
 }
 
 input {

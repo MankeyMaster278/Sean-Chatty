@@ -5,7 +5,7 @@ box.insertAdjacentHTML("afterbegin",
 `<p class='red'> Welcome to life chat <p>`);
 
 var button = document.querySelector('button');
-var inputbox = document.querySelector('input')
+var inputbox = document.querySelector('input');
 
 button.addEventListener( 'click', function() {
     console.log(inputbox.value)
